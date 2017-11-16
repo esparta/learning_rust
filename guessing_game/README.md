@@ -8,6 +8,7 @@ println!:
 
 - Is not a function, it's a macro
 - You can't use single quotes for the string passed
+```
     error: character literal may only contain one codepoint: ')
      --> src/main.rs:4:32
       |
@@ -15,6 +16,6 @@ println!:
       |                                ^^
 
     error: aborting due to previous error
-
+```
 
 [prelude]: https://doc.rust-lang.org/std/prelude/
