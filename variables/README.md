@@ -30,4 +30,4 @@ let x = x + 1;
 
 Also make sense, we are creating a new variable based on a previous one.
 
-
+Changing the type makes it a little bit confusing, though.
