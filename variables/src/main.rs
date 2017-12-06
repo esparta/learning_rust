@@ -1,10 +1,15 @@
 fn main() {
-    // Changing the type on Shadowing
+    let x = 2.0;
 
-    let spaces = "    ";
-    let spaces = spaces.len();
+    let y: f32 = 3.0;
 
-    println!("The length of spaces is {}", spaces);
+    println!("Values x: {}, y: {}", x, y);
+    // // Changing the type on Shadowing
+    //
+    // let spaces = "    ";
+    // let spaces = spaces.len();
+    //
+    // println!("The length of spaces is {}", spaces);
 
     // Shadowing
     // let x = 5;
