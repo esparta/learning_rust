@@ -1,4 +1,10 @@
 fn main() {
+
+    // Arrays
+    let array = [1, 2, 3, 5, -2];
+    println!("The second element of the array is: {}", array[1]);
+
+
     // Tuples
     let tup: (i32, f64, u8) = (500, 6.4, 1);
 
