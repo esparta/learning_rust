@@ -1,4 +1,13 @@
 fn main() {
+    // Tuples
+    let tup: (i32, f64, u8) = (500, 6.4, 1);
+
+    let (_x, y, _z) = tup;
+
+    println!("The value of y is {}", y);
+    println!("The third value of tup is {}", tup.2);
+
+
     // Char types, "The most primitive alphabetic type"
     let _c = 'z';
 
@@ -13,11 +22,11 @@ fn main() {
     let _f: bool = false;
 
     // Floating
-    let x = 2.0;
-
-    let y: f32 = 3.0;
-
-    println!("Values x: {}, y: {}", x, y);
+    // let x = 2.0;
+    //
+    // let y: f32 = 3.0;
+    //
+    // println!("Values x: {}, y: {}", x, y);
     // // Changing the type on Shadowing
     //
     // let spaces = "    ";
