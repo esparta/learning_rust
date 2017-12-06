@@ -1,4 +1,18 @@
 fn main() {
+    // Char types, "The most primitive alphabetic type"
+    let _c = 'z';
+
+    let _z = 'Z';
+
+    let _heart_eyed_cat = '😻';
+    //
+    // Boolean types
+
+    let _t = true;
+
+    let _f: bool = false;
+
+    // Floating
     let x = 2.0;
 
     let y: f32 = 3.0;
